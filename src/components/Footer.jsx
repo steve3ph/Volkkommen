@@ -22,11 +22,11 @@ const NewsletterForm = () => {
   return (
     <form className="max-w-sm">
       <h2 className="font-display text-sm font-semibold tracking-wider text-neutral-950">
-        Sign up for our newsletter
+      Passionate About Engineering ? Sign up for our new Journey
       </h2>
       <p className="mt-4 text-sm text-neutral-700">
-        Subscribe to get the latest design news, articles, resources and
-        inspiration.
+      Join Volkkommen Industries to work on cutting edge technologies
+       which will pave the way towards the future!
       </p>
       <div className="relative mt-6">
         <input
@@ -63,11 +63,11 @@ const Footer = () => {
         <div className="mb-20 mt-24 flex flex-wrap items-end justify-between gap-x-6 gap-y-4 border-t border-neutral-950/10 pt-12">
           <Link href={"/"} aria-label="Home">
             <Logo className="h-8" fillOnHover>
-              Studio_clone
+              Volkkommen
             </Logo>
           </Link>
           <p className="text-sm text-neutral-700">
-            © Studio Agency Inc. {new Date().getFullYear()}
+          © Copyright 2020 Volkkommen Industries LLP - All Rights Reserved {new Date().getFullYear()}
           </p>
         </div>
       </FadeIn>

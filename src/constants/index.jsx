@@ -5,7 +5,7 @@ export const navigation = [
     title: "Work",
     links: [
       { title: "Amazon Clone", href: "/work/amazonclone" },
-      { title: "Bazar e-commerce", href: "/work/bazar" },
+      // { title: "Bazar e-commerce", href: "/work/bazar" },
       { title: "Blog 101", href: "/work/blog101" },
       {
         title: (

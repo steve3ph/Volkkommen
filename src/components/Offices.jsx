@@ -21,17 +21,21 @@ const Offices = ({ invert = false, ...props }) => {
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="U.S.A" invert={invert}>
-          on bay mark
+        <Office name="KERALA" invert={invert}>
+        VOLKKOMMEN INDUSTRIES LLP
           <br />
-          Newtown city of Las Vegas
+          No. 6/858-M, 2nd Floor,
+          Valamkottil Towers, Judgemukku,
+          Kakkanad, Kochi - 682021
         </Office>
       </li>
       <li>
-        <Office name="London" invert={invert}>
-          13 long Street
+        <Office name="CONTACTS" invert={invert}>
+        Email:support@volkkommen.com
           <br />
-          Downtown, Allyway
+          Phone: +91 484-2388444 <br/>
+          Phone: +91 91883 39981 <br />
+          Phone: +91 89431 47861 <br />
         </Office>
       </li>
     </ul>

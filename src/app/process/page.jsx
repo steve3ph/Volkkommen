@@ -9,11 +9,11 @@ import React from "react";
 const ProcessPage = () => {
   return (
     <>
-      <PageIntro eyebrow="Our process" title="How we work">
+      <PageIntro eyebrow="Our process" title="What is IIoT?">
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+        The term industrial internet of things is often encountered in the manufacturing industries,
+         referring to the industrial subset of the IoT. Potential benefits of the industrial internet of things include improved productivity, 
+         analytics and the transformation of the workplace. The potential of growth by implementing IIoT is predicted to generate $15 trillion of global GDP by 2030.
         </p>
       </PageIntro>
       <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">
@@ -22,7 +22,7 @@ const ProcessPage = () => {
         {/* Build */}
         <Build />
         {/* Deliver */}
-        <Deliver />
+        <Deliver /> 
       </div>
       {/* Values */}
       <Values />
